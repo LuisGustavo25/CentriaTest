@@ -2,8 +2,54 @@
   text-align: center;
 }
 
+#site-header{
+  margin: 0 auto;
+  height: 3.125rem;
+  max-width: 72rem;
+  flex: none;
+}
+
+.Header-module-firts>.Header-module{
+  margin: 0 auto;
+  height: 3.125rem;
+  max-width: 72rem;
+}
+
+.Header-module{
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  color: #fff;
+}
+
+.Header-module>.header-module-logo{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.header-module-logo{
+  z-index: 2;
+  flex: 0 0;
+  min-width: max-content;
+  height: 100%;
+  padding: .25em .5em;
+}
+
+.Header-link{
+  min-width: max-content;
+  height: 100%;
+  padding: 0 1em;
+}
+
+.Header-link:hover{
+  background-color: #202020;
+}
+
 .App-logo {
-  height: 40vmin;
+  height: 25px;
   pointer-events: none;
 }
 
@@ -14,7 +60,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0a0a0a;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
