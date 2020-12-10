@@ -13,6 +13,7 @@
   margin: 0 auto;
   height: 3.125rem;
   max-width: 72rem;
+  border-bottom: 2px solid #333;
 }
 
 .Header-module{
@@ -51,6 +52,30 @@
 .App-logo {
   height: 25px;
   pointer-events: none;
+}
+
+.Container-pokemon{
+  border-radius: 3cm;
+  color: #fff;
+  display: inline-block;
+  padding: .20em .3em;
+}
+
+.Container-pokemon:hover{
+  background-color: #202020;
+}
+
+.Container{
+  background-color:  #2e2e2e;
+}
+
+.App-footer{
+  border-top: 2px solid #333;
+  margin: 0 auto;
+  height: 2.125rem;
+  max-width: 72rem;
+  color: white;
+  background-color: #2e2e2e;
 }
 
 @media (prefers-reduced-motion: no-preference) {
